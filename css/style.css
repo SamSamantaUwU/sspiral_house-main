@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+
+  background-image: url("/Imagens/background.jpg");
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+a:link{
+  color: #fff9f9;
+}
+
+a:hover{
+color: #C70E0E;
+}
+
+a:active{
+  color: #fff9f9;
+}
+
+.box1 {
+  height: 170px;
+  width: 315px;
+  border-radius: 20px;
+  background-image: linear-gradient(transparent 0%, #4b872667 0px), url('/Imagens/espiral.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+
+}
+
+
+
+.box2 {
+  height: 170px;
+  width: 315px;
+  border-radius: 20px;
+  background-image: linear-gradient(transparent 0%, #44067767 0px), url('/Imagens/espiral.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.text {
+  color: #fff9f9;
+}
+
+body {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+h4{
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.sspiral {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  display: flex;
+}
+
+.rodapé{
+display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+
+.imgcabeçalho{
+  width: 100%;
+  background-image:-moz-linear-gradient(transparent 0%, #44067767 0px);
+}
+
+.pessoa1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.nome{
+  flex-direction: column;
+}
+.fotos{
+  border-radius: 100%;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+}
