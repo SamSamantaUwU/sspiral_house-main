@@ -11,29 +11,31 @@
   width: auto;
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .box {
   display: flex;
   flex-direction: column;
   padding: 50px;
+  gap: 50px;
   justify-content: space-around;
 }
 
-a{
+a {
   text-decoration: none;
 
 }
 
-a:link{
+a:link {
   color: #fff9f9;
 }
 
-a:hover{
-color: #C70E0E;
+a:hover {
+  color: #C70E0E;
 }
 
-a:active{
+a:active {
   color: #fff9f9;
 }
 
@@ -62,6 +64,13 @@ a:active{
   background-position: center;
 }
 
+.container2 {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  
+}
+
 .text {
   color: #fff9f9;
 }
@@ -76,7 +85,8 @@ h1 {
   text-align: center;
   margin-top: 50px;
 }
-h4{
+
+h4 {
   text-align: center;
   margin-top: 25px;
   margin-left: 150px;
@@ -97,32 +107,52 @@ h4{
   width: 250px;
   border-radius: 100%;
   display: flex;
+  align-self: center;
 }
 
-.rodapé{
-display: flex;
-justify-content: space-around;
-margin: 20px;
+.rodapé {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
 }
 
-.imgcabeçalho{
+.imgcabeçalho {
   width: 100%;
-  background-image:-moz-linear-gradient(transparent 0%, #44067767 0px);
+  background-image: -moz-linear-gradient(transparent 0%, #44067767 0px);
 }
 
-.pessoa1{
+.container1 {
+  display: flex;
+  margin: 250px;
+}
+
+.pessoa1 {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
   margin-left: 150px;
   margin-right: 150px;
 }
-.nome{
+
+.nome {
   flex-direction: column;
 }
-.fotos{
+
+.fotos {
   border-radius: 100%;
   justify-content: space-around;
   width: 200px;
   height: 200px;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box4{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
