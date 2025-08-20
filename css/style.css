@@ -7,10 +7,11 @@
 .container {
 
   background-image: url("/Imagens/background.jpg");
-  height: 100%;
-  width: auto;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 50px;
 }
 
@@ -24,7 +25,7 @@
 
 a {
   text-decoration: none;
-
+  color: #fff9f9;
 }
 
 a:link {
@@ -38,6 +39,7 @@ a:hover {
 a:active {
   color: #fff9f9;
 }
+
 
 .box1 {
   height: 170px;
@@ -66,13 +68,14 @@ a:active {
 
 .container2 {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-direction: row;
-  
+
 }
 
 .text {
   color: #fff9f9;
+  
 }
 
 body {
@@ -83,14 +86,18 @@ body {
 
 h1 {
   text-align: center;
+}
+
+h3{
+  text-align: center;
   margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 h4 {
   text-align: center;
   margin-top: 25px;
-  margin-left: 150px;
-  margin-right: 150px;
 }
 
 .logo {
@@ -99,8 +106,10 @@ h4 {
   gap: 50px;
   padding: 40px;
   color: rgb(255, 0, 0);
-  text-align: center;
+  text-align: justify;
+  width: 700px ;
 }
+
 
 .sspiral {
   height: 250px;
@@ -113,36 +122,33 @@ h4 {
 .rodapé {
   display: flex;
   justify-content: space-around;
-  margin: 20px;
+  margin: 80px;
 }
 
 .imgcabeçalho {
   width: 100%;
-  background-image: -moz-linear-gradient(transparent 0%, #44067767 0px);
 }
 
 .container1 {
   display: flex;
-  margin: 250px;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-direction: row;
 }
 
 .pessoa1 {
   display: flex;
-  flex-direction: row;
-  margin-top: 25px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-.nome {
   flex-direction: column;
+  margin-right: 100px;
+  margin-left: 100px;
+  align-self: center;
 }
 
 .fotos {
   border-radius: 100%;
-  justify-content: space-around;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .box3 {
@@ -151,8 +157,18 @@ h4 {
   gap: 25px;
 }
 
-.box4{
+.box4 {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+.container3 {
+
+  background-image: url("/Imagens/Rectangle\ 13\ \(1\).png");
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  background-position: center;
 }
