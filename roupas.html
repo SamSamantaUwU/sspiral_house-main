@@ -1,19 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roupas</title>
 
-        <link rel="stylesheet" href="css/style.css" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carrossel com Bootstrap + CSS Personalizado</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Seu CSS personalizado -->
+
 </head>
-<body class="background">
-    <header>
-        <img src="/Imagens/cabeçalho extasia.png" class="imgcabeçalho" alt="">
-        <h1 class="text-extasia">Nome da roupa</h1>
-    </header>
-    <main>
-        
-    </main>
+<body>
+    
+<header class="background">
+    <img src="/Imagens/cabeçalho extasia.png" class="imgcabeçalho" alt="">
+
+</header>
+
+<main class="background my-5">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img1.jpg" class="d-block w-100" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img2.jpg" class="d-block w-100" alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img3.jpg" class="d-block w-100" alt="Imagem 3">
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+</main>
+
+<footer>
+    <navbar class="rodapé text-extasia">
+        <span class="text-extasia"><a href="index.html">Home</a></span>
+        <span class="text-extasia"><a href="extasia.html">Extasia Oculta</a></span>
+        <span class="text-extasia"><a href="agenda.html">Agenda</a></span>
+        <span class="text-extasia"><a href="portfolio.html">Portfólio</a></span>
+    </navbar>
+
+    <div class="container2">
+        <div class="box3 text">
+            <span>sspiralhouse@gmail.com</span>
+            <span>Whatsapp: 12345678</span>
+        </div>
+
+        <div class="box4 text ">
+            <span>extasiaoculta@gmail.com</span>
+            <span>Whatsapp: 12345678</span>
+        </div>
+
+    </div>
+</footer>
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FQybjgWLrvvRgtW6h+Ff9+GY0GkGZl5c7MgdGQG/ZynD9EzKkWcN5qov5KjbErgy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

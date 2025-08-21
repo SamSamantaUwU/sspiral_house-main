@@ -70,6 +70,8 @@ a:active {
   
 }
 
+
+
 .text {
   color: #fff9f9;
 
@@ -161,7 +163,7 @@ h5 {
 
 .background{
   background-color: rgb(255, 255, 255);
-  height: 100%;
+  height: 200px;
   width: 100%;
 }
 
@@ -248,8 +250,39 @@ footer{
 
 .background-eventos{
  background-image: url("/Imagens/background-eventos.png");
-  height: auto;
+  height: 100pxpx;
   width: 100%;
   display: flex;
+}
+
+.imgroupas{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-self: center;
+
+}
+
+/* Centralizar o carrossel */
+.carousel {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* Ajustar altura das imagens */
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Personalizar botões laterais */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    padding: 10px;
 }
 
