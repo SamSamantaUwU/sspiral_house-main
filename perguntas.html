@@ -50,12 +50,12 @@ items.forEach(item => {
     items.forEach(i => {
       i.classList.remove("open");
       i.querySelector(".content").style.maxHeight = null;
-      i.querySelector(".content").style.padding = "0 150px";
+      i.querySelector(".content").style.padding = "0 50px";
     });
     if (!isOpen) {
       item.classList.add("open");
       content.style.maxHeight = content.scrollHeight + "px";
-      content.style.padding = " 150px";
+      content.style.padding = "50px";
     }
   });
 });
